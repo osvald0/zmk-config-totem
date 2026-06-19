@@ -77,7 +77,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
+        default_layer {
             bindings = <
           &kp Q             &kp W                 &kp E                 &kp R               &lt 4 T      &lt 4 Y      &kp U                &kp I                  &kp O                  &kp P
           &hm_l LEFT_ALT A  &hm_l LEFT_COMMAND S  &hm_l LEFT_CONTROL D  &hm_l LEFT_SHIFT F  &lt 3 G      &lt 3 H      &hm_r RIGHT_SHIFT J  &hm_r RIGHT_CONTROL K  &hm_r RIGHT_COMMAND L  &hm_r RIGHT_ALT SEMICOLON
@@ -86,12 +86,12 @@
             >;
         };
 
-        nav_num {
+        sym_layer {
             bindings = <
-                   &kp LA(BACKSPACE)   &kp BACKSPACE  &kp UP     &kp DELETE     &kp LA(DELETE)        &kp N5      &kp N6           &kp N7       &kp N8    &kp N9
-                   &kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN   &kp RIGHT      &kp LA(RIGHT)         &kp N0      &kp N1           &kp N2       &kp N3    &kp N4
-&kp LG(BACKSPACE)  &kp LG(UP_ARROW)    &kp LG(LEFT)   &kp ENTER  &kp LG(RIGHT)  &kp LG(DOWN_ARROW)    &kp PERIOD  &kp PLUS         &kp MINUS    &kp STAR  &kp FSLH  &kp CARET
-                                                      &trans     &trans         &trans                &kp EQUAL   &kp RIGHT_SHIFT  &kp PERCENT
+       &none          &kp TILDE       &kp PLUS          &kp LEFT_BRACE        &kp GRAVE          &kp AMPERSAND  &kp RIGHT_BRACE        &kp EQUAL          &kp PERCENT  &none
+       &kp BACKSLASH  &kp UNDERSCORE  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp EXCLAMATION    &kp ASTERISK   &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp MINUS    &kp PIPE
+&none  &none          &kp LG(LEFT)    &kp CARET         &kp LEFT_BRACKET      &kp DOLLAR         &kp AT_SIGN    &kp RIGHT_BRACKET      &kp POUND          &none        &none     &none
+                                      &trans            &trans                &trans             &none          &none                  &none
             >;
         };
 
