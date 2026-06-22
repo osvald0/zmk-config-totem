@@ -194,9 +194,9 @@
 
         default_layer {
             bindings = <
-          &kp Q             &kp W                 &kp E                 &kp R               &lt 0 T      &lt 0 Y      &kp U                &kp I                  &kp O                  &kp P
+          &kp Q             &kp W                 &kp E                 &kp R               &lt 4 T      &lt 4 Y      &kp U                &kp I                  &kp O                  &kp P
           &hm_l LEFT_ALT A  &hm_l LEFT_COMMAND S  &hm_l LEFT_CONTROL D  &hm_l LEFT_SHIFT F  &lt 3 G      &lt 3 H      &hm_r RIGHT_SHIFT J  &hm_r RIGHT_CONTROL K  &hm_r RIGHT_COMMAND L  &hm_r RIGHT_ALT SEMICOLON
-&kp CAPS  &kp Z             &kp X                 &kp C                 &kp V               &lt 0 B      &lt 0 N      &kp M                &kp COMMA              &kp DOT                &kp FSLH                   &none
+&kp CAPS  &kp Z             &kp X                 &kp C                 &kp V               &lt 5 B      &lt 5 N      &kp M                &kp COMMA              &kp DOT                &kp FSLH                   &kp LG(SPACE)
                                                   &none                 &lt 1 BACKSPACE     &lt 2 ESC    &lt 2 ENTER  &lt 1 SPACE          &none
             >;
         };
